@@ -1,4 +1,10 @@
+/* import Nanum Gothic Font */
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-body { padding-top: 50px; }
+body { 
+  font-family: "Nanum Gothic", sans-serif;
+  padding-top: 50px; 
+}
 .header { }
-.footer { text-align:center; }
+.footer {
+  text-align:center;
+}
