@@ -1,17 +1,35 @@
 /* import Nanum Gothic Font */
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 body { 
   font-family: "Nanum Gothic", sans-serif;
   padding-top: 50px; 
 }
-.header { }
-.footer {
-  text-align:center;
+
+h1 {
+	margin: 10px 0;
+	line-height: 2.4;
 }
-#section1 {
-	background-color: #168ccc;
-    color:#dedeff;
+
+section {
+	margin:50px;
 }
+
+#download .download-table {
+	width: 300px;
+	font-size: 20px;
+	float: left;
+}
+
+#download .manual {
+	float: left;
+}
+
+#footer {
+  text-align: center;
+}
+
+/* github project button */
 .btn-outline {
     background-color: transparent;
     border-color: #563d7c;
