@@ -12,3 +12,8 @@ body {
 	background-color: #168ccc;
     color:#dedeff;
 }
+.btn-outline {
+    background-color: transparent;
+    border-color: #563d7c;
+    color: #563d7c;
+}
