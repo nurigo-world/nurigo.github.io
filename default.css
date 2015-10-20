@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*	webfont	*/
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
+/*	default	*/
+*{margin:0px;padding:0px;list-style:none;border:0;}
+body{color:#444;background-color:#fff; font-size:13px;font-family:'Nanum Gothic', '나눔고딕', dotum,"돋움",sans-serif;background:url(/nam/img/nam_bg.jpg) repeat center bottom;}
+body,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,input,table,tr,th,td{margin:0; padding:0;}
+ul,ol,li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+hr{display:none;}
+fieldset{border:none; vertical-align:top;}
+legend, caption {display:none;font-size:0;line-height:0;}
+textarea, button{vertical-align:middle; text-align:left;}
+
+/*	table 	*/
+table {font-size:13px;font-family:'Nanum Gothic', '나눔고딕', dotum,"돋움",sans-serif;*border-collapse:collapse;border-spacing:0;}
+th{font-size:13px;font-family:'Nanum Gothic', '나눔고딕', 'ng', 'ng02', dotum,"돋움",sans-serif;vertical-align:middle;height:37px; text-align:center;}
+caption{display:none;}
+
+/*	link	*/
+a{color:#333;text-decoration:none;}
+a:hover,a:active,a:focus,a:visited,a:link{color:#333; outline:0;}
+
+/*	img		*/
+img {border:0;vertical-align:middle;}
+
+/*	form	*/
+input, select{font-size:13px;font-family:'Nanum Gothic', '나눔고딕', dotum,"돋움",sans-serif;color:#999;vertical-align:middle;}
+select {font-weight:bold;}
+textarea{font-size:13px;padding:3px 3px 2px 3px;font-family:'Nanum Gothic', '나눔고딕',dotum,"돋움",sans-serif;color:#666;background:#fff;border:1px solid #cfcfcf;}
+form{margin:0px;padding:0px;border:0;}
+
+/*	etc		*/
+address, caption, cite, code, dfn, em, th, var {font-style:normal; font-weight:normal;}
+
+/*	html5	*/
+header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption {display:block} 
+
+/*	@clear fix	*/
+* html .clfix { height: 1%; overflow: visible;} /* float clearing for IE6 */
+*+html .clfix{ min-height: 1%;} /* float clearing for IE7 */
+.clfix:after{ clear: both; content: "."; display: block; height: 0; visibility: hidden; font-size: 0;} /* float clearing for everyone else */
+
